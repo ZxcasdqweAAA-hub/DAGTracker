@@ -1,0 +1,11 @@
+_BASE_: ../Base-SBS.yml
+
+MODEL:
+  BACKBONE:
+    NAME: build_my_dgse_backbone
+
+DATASETS:
+  NAMES: ("MOT17",)
+  TESTS: ("MOT17",)
+
+OUTPUT_DIR: logs/MOT17/dgse
